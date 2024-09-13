@@ -11,7 +11,8 @@ def count_lessThen3 (n)
 	return count
 end
 
+puts "Введите число:"
 n = gets.chomp.to_i
 res = count_lessThen3(n)
-puts "результат: #{res}"
+puts "Количество цифр числа #{n}, меньших 3: #{res}"
 	
