@@ -5,7 +5,8 @@ else
 end
 puts "Здравствуй, #{name}!"
 puts "Какой твой любимый язык программирования?"
-lang = gets.chomp 
+
+lang = STDIN.gets.chomp 
 
 if lang == "Ruby"
 	puts "Ого, #{name}, оказывается ты подлиза^^"
@@ -24,9 +25,9 @@ else
 end
 
 puts "Пожалуйста, введите команду для Ruby:"
-ruby = gets.chomp
+ruby = STDIN.gets.chomp
 puts "Теперь команду для ОС:"
-op_s = gets.chomp
+op_s = STDIN.gets.chomp
 
 begin
   eval(ruby)
