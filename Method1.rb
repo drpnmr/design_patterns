@@ -12,6 +12,7 @@ def prostoe (n)
 	return true
 end
 
+puts "Введите число:"
 n = gets.chomp.to_i
 sum = 0
 for i in 1..n
@@ -19,5 +20,5 @@ for i in 1..n
 		sum+=i
 	end
 end
-puts "результат #{sum}"
+puts "Сумма непростых делителей числа: #{sum}"
 	
